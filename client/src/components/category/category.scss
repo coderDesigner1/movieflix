@@ -1,0 +1,24 @@
+.category{
+  position:absolute;
+  top:145px;
+  margin-left: 50px;
+  color: white;
+
+  span{
+    margin-right: 15px;
+    font-weight: 500;
+    font-size: 30px;
+  }
+
+  select{
+    cursor: pointer;
+    background-color: gray;
+    border:1px solid white;
+    color: white;
+    padding:5px;
+
+    option{
+      margin-top:15px;
+    }
+  }
+}

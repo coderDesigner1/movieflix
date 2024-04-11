@@ -1,0 +1,46 @@
+.itemInfo{
+  width: 100%;
+  margin-top: 10px;
+
+  .itemTitle{
+    color:gray;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 50px;
+  }
+
+  .wrapper{
+    
+    position:relative;
+    display:flex;
+    align-items: center;    
+    margin-top:10px;
+
+    .sliderArrow{
+      font-weight: 700;
+      font-size:50px;
+      background-color: rgba(234, 232, 232, 0.5);
+      color:rgb(20, 20, 20);
+      position:absolute;
+      z-index:99;
+      cursor: pointer;
+
+
+      &.left{
+        left:0;
+      }
+
+      &.right{
+        right:0;
+      }
+    }
+  
+    .container{
+      margin-left: 50px;
+      display: flex;
+      width: max-content;
+      transition:all 1s ease;
+    }
+    
+  }
+}
